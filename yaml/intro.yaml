@@ -1,0 +1,11 @@
+#intro.yaml - YAML basic
+
+app: devops-journey
+enivornment: dev
+owner: Yash Shinde
+services:
+   - name: web
+     image: ngnix.latest
+     ports:
+        - 80
+        - 443
